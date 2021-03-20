@@ -16,7 +16,7 @@ const renderHelper = (tasks, options, level) => {
 		if (task.isEnabled()) {
 			const skipped = task.isSkipped() ? ` ${chalk.dim('[skipped]')}` : '';
 
-			output.push(indentString(` ${utils.getSymbol(task, options)} ${task.title}${skipped}`, level, '  '));
+			output.push(indentString(`${utils.getSymbol(task, options)} ${task.title}${skipped}`, level, '  '));
 
 			if ((task.isPending() || task.isSkipped() || task.hasFailed()) && utils.isDefined(task.output)) {
 				let data = task.output;
@@ -31,7 +31,7 @@ const renderHelper = (tasks, options, level) => {
 
 				if (utils.isDefined(data)) {
 					const out = indentString(`${figures.arrowRight} ${data}`, level, '  ');
-					output.push(`   ${chalk.gray(cliTruncate(out, process.stdout.columns - 3))}`);
+					output.push(` ${chalk.gray(cliTruncate(out, process.stdout.columns - 3))}`);
 				}
 			}
 
