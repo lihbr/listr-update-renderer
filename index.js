@@ -22,7 +22,9 @@ const renderHelper = (tasks, options, level) => {
 				let data = task.output;
 
 				if (typeof data === 'string') {
-					data = stripAnsi(data.trim().split('\n').filter(Boolean).pop());
+					data = stripAnsi(
+						data.trim().split('\n').filter(Boolean).reverse().find((line) => stripAnsi(line))
+					);
 
 					if (data === '') {
 						data = undefined;

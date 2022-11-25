@@ -1,6 +1,6 @@
 {
 	"name": "@lihbr/listr-update-renderer",
-	"version": "0.5.1",
+	"version": "0.5.2",
 	"description": "Listr update renderer",
 	"license": "MIT",
 	"repository": "lihbr/listr-update-renderer",

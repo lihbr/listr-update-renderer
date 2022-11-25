@@ -1,4 +1,4 @@
-> Lucie: This is a quick fork of [listr-update-renderer](https://github.com/SamVerschueren/listr-update-renderer) that removes the initial indentation for styling purpose. All credit goes to [Sam Verschueren](https://github.com/SamVerschueren)
+> Lucie: This is a quick fork of [listr-update-renderer](https://github.com/SamVerschueren/listr-update-renderer) that removes the initial indentation for styling purpose and makes `task.output` more meaningful. All credit goes to [Sam Verschueren](https://github.com/SamVerschueren)
 
 # listr-update-renderer [![Build Status](https://travis-ci.org/SamVerschueren/listr-update-renderer.svg?branch=master)](https://travis-ci.org/SamVerschueren/listr-update-renderer)
 
