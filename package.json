@@ -1,6 +1,6 @@
 {
 	"name": "@lihbr/listr-update-renderer",
-	"version": "0.5.2",
+	"version": "0.5.3",
 	"description": "Listr update renderer",
 	"license": "MIT",
 	"repository": "lihbr/listr-update-renderer",
@@ -33,7 +33,7 @@
 		"elegant-spinner": "^1.0.1",
 		"figures": "^2.0.0",
 		"indent-string": "^3.0.0",
-		"log-symbols": "^1.0.2",
+		"log-symbols": "^4.1.0",
 		"log-update": "^2.3.0",
 		"strip-ansi": "^3.0.1"
 	},
